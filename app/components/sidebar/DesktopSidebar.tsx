@@ -39,7 +39,7 @@ const DesktopSidebar: React.FC<DesktopSidebarProps> = ({ currentUser }) => {
             lg:flex-col
             justify-between"
       >
-        <nav className="mt-4 flex flex-col justify-between">
+        <div className="mt-4 flex flex-col justify-between">
           <ul role="list" className="flex flex-col items-center space-y-1">
             {routes.map((item) => (
               <DesktopItem
@@ -52,7 +52,7 @@ const DesktopSidebar: React.FC<DesktopSidebarProps> = ({ currentUser }) => {
               />
             ))}
           </ul>
-        </nav>
+        </div>
         <nav className="mt-4 flex flex-col justify-between items-center">
           <div
             onClick={() => setOpen(true)}
