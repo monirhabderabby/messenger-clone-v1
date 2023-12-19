@@ -69,13 +69,11 @@ const ConversationList: React.FC<ConversationListProps> = ({
         const updatedConversation = current.filter(
           (convo) => convo.id !== conversation.id
         );
-
-        console.log(updatedConversation);
         return updatedConversation;
       });
 
       if (conversationId === conversation.id) {
-        router.push("/conversation");
+        router.push("/conversations");
       }
     };
 
