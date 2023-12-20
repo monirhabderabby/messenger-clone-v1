@@ -28,10 +28,22 @@ This project serves as a practical learning experience to delve into the intrica
 3. **Run the Application:**
     - Follow the instructions in the [documentation](docs/README.md) for detailed setup and usage guidelines.
 
-## Contributions
-Contributions are welcome! Feel free to open issues, submit pull requests, or provide suggestions to improve and enhance the Messenger Clone project.
+## Technologies Used
 
-## License
-This project is licensed under the [MIT License](LICENSE). See the [LICENSE](LICENSE) file for details.
+The Messenger Clone project leverages a modern technology stack to deliver a robust and efficient real-time messaging application. Here are the key technologies utilized:
+
+1. **Next.js:**
+   - Next.js is employed for building a React-based web application with server-side rendering and efficient page routing. Its simplicity and extensibility make it a suitable choice for this project.
+
+2. **Prisma:**
+   - Prisma is utilized as the database toolkit, providing a type-safe and auto-generated query builder for interacting with the MongoDB database. Its ease of use and compatibility with Next.js make it an excellent choice for managing database operations.
+
+3. **MongoDB:**
+   - MongoDB serves as the database to store and retrieve data related to users, messages, and group communications. Its flexible schema and scalability are beneficial for a dynamic messaging application.
+
+4. **Headless UI:**
+   - Headless UI components are integrated to enhance the user interface with accessible and customizable components. This ensures a smooth and responsive user experience throughout the application.
+
+These technologies collectively contribute to the development of a feature-rich and scalable Messenger Clone, providing a solid foundation for real-time messaging and user interaction.
 
 Happy Coding! 🚀
